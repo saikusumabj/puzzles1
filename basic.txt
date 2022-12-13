@@ -1,0 +1,23 @@
+3. Write a Python program to display the current date and time.
+Sample Output :
+Current date and time :
+2014-07-05 14:34:14
+A)
+from datetime import datetime
+now=datetime.now()
+print("now=",now)
+8. Write a Python program to display the first and last colors from the following list?
+color_list = ["Red","Green","White" ,"Black"]
+A)color_list = ["Red","Green","White" ,"Black"]
+print(color_list[0],color_list[3])
+9. Write a Python program to display the examination schedule. (extract the date from exam_st_date)?
+exam_st_date = (11, 12, 2014)
+Sample Output : The examination will start from : 11 / 12 / 2014
+A)exam_st_date = (11, 12, 2014)
+print("The examination start from:%i/%i/%i"%exam_st_date)
+12. Write a Python program to print the calendar of a given month and year.
+Note : Use 'calendar' module.
+A)import calendar
+y = int(input("Input the year : "))
+m = int(input("Input the month : "))
+print(calendar.month(y, m))
